@@ -1,7 +1,7 @@
-# Email Spoofing Demonstration Tool
+# Email Spoofing Tool
 
 ## 🚀 Overview
-This project is a **comprehensive email spoofing simulation tool** designed strictly for **educational, security testing, and controlled environments**. The tool provides various functionalities to analyze domain vulnerabilities, generate spoofed emails, and test email security defenses.
+This project is a **comprehensive email spoofing  tool** designed strictly for **educational, security testing, and controlled environments**. The tool provides various functionalities to analyze domain vulnerabilities, generate spoofed emails, and test email security defenses.
 
 ## 🔥 Features
 - ✅ **Email Spoofing Simulation** – Send crafted emails to test domain security policies.  
@@ -70,6 +70,6 @@ Always ensure you have explicit permission before conducting any security tests.
 
 ---
 
-**Happy Testing!**  
+**Happy Pentesting!**  
 *Author: atypical_exe*
 
