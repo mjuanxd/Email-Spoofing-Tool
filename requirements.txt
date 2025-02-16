@@ -1,0 +1,5 @@
+dnspython
+openai
+requests
+tqdm
+colorama
