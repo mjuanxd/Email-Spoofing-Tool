@@ -25,11 +25,18 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+![Captura de pantalla 2025-02-16 202303](https://github.com/user-attachments/assets/255a8fa2-9dc8-4529-8d8d-cf7ad7595766)
+
+
 
 ### 2. Main Menu Options
 - **Single Domain Analysis**:  
   - Analyze DMARC/SPF/DKIM for one domain.  
   - Optionally send a spoofed email if the domain is found vulnerable.
+
+![Captura de pantalla 2025-02-16 202348](https://github.com/user-attachments/assets/5036eaac-f6cd-4bf0-8976-0eac7a16e83d)
+
+
 - **Batch Mode (Concurrent Scanning)**:  
   - Analyze multiple domains (listed in a file) concurrently.  
   - Optionally send spoofed emails in bulk to all vulnerable domains.
@@ -44,8 +51,12 @@ python main.py
 
 ### 4. Sending Spoofed Emails
 - **Email Generation**:  
-  - **Manual (Option 1)**: Write the HTML body of the email directly.  
+  - **Manual (Option 1)**: Write the HTML body of the email directly.
   - **AI (Option 2)**: Provide a prompt to generate a phishing-like HTML email using OpenAI.
+ 
+![Captura de pantalla 2025-02-16 202511](https://github.com/user-attachments/assets/35511bb4-cde2-4229-b9b9-2fb880994295)
+
+    
 - **Attachments & Headers**:  
   - Attach files from local disk or via URL.  
   - Set additional headers (like Reply-To) or add a custom signature (X-Hacked-By).
