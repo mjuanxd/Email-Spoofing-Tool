@@ -18,3 +18,40 @@ This project is a **comprehensive email spoofing simulation tool** designed stri
 git clone https://github.com/yourusername/email-spoofing-tool.git
 cd email-spoofing-tool
 pip install -r requirements.txt
+🚀 Usage
+Run the tool:
+
+bash
+Copiar
+python main.py
+Main Menu Options:
+
+Single Domain Analysis:
+Analyze DMARC/SPF/DKIM for one domain.
+Optionally send a spoofed email if the domain is found vulnerable.
+Batch Mode (Concurrent Scanning):
+Analyze multiple domains (listed in a file) concurrently.
+Optionally send spoofed emails in bulk to all vulnerable domains.
+About:
+Displays information about the tool, its purpose, and authorship.
+Exit:
+Quit the program.
+SMTP Configuration:
+
+You need an SMTP server to send emails. If you don’t have one, you can use a service like Brevo to obtain SMTP credentials (host, port, username, and password).
+When prompted by the tool, enter the SMTP details accordingly.
+Sending Spoofed Emails:
+
+Email Generation:
+Manual (Option 1): Write the HTML body of the email directly.
+AI (Option 2): Provide a prompt to generate a phishing-like HTML email using OpenAI.
+Attachments & Headers:
+Attach files from local disk or via URL.
+Set additional headers (like Reply-To) or add a custom signature (X-Hacked-By).
+Reporting:
+
+After scanning (single or batch), an HTML report (spoofing_report.html) is generated, summarizing domain vulnerabilities and their DMARC/SPF/DKIM status.
+⚠️ Disclaimer
+This tool is intended ONLY for legal penetration testing, cybersecurity research, and educational purposes in controlled environments. Unauthorized use is strictly prohibited.
+Always ensure you have explicit permission before conducting any security tests.
+
