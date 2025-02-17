@@ -1,0 +1,2 @@
+Research Paper 
+https://medium.com/@playestation123/email-spoofing-exploitability-quantification-and-mitigation-via-an-cryptographic-hardware-450744e1bd69
